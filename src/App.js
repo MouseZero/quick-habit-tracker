@@ -45,40 +45,37 @@ class App extends React.Component {
 		const {habits} = this.state
 		return (
 			<div className="App">
-				<input
-					name="newHabitName"
-					value={this.state.newHabitName}
-					onChange={this.handleChange}
-				></input>
-				<button
-					onClick={this.createHabit(this.state.newHabitName)}
-				>New Habit</button>
 				{Object.keys(habits).map(key =>
 					<div key={key}>
-					<h3>{habits[key].name}</h3>
-						<div>
-							{habits[key].did}
-							<button
-								name={key + '--did'}
-								onClick={this.updateCount}
-							>Did</button>
-						</div>
-						<div>
-							{habits[key].didNot}
-							<button
-								name={key + '--didNot'}
-								onClick={this.updateCount}
-							>Did Not</button>
-						</div>
-						<div>
-							{habits[key].alt}
-							<button
-								name={key + '--alt'}
-								onClick={this.updateCount}
-							>Alt</button>
+						<h3>{habits[key].name}</h3>
+						<div className="habit">
+							<div>
+								{habits[key].did}
+								<button
+									name={key + '--did'}
+									onClick={this.updateCount}
+								>Did</button>
+							</div>
+							<div>
+								{habits[key].didNot}
+								<button
+									name={key + '--didNot'}
+									onClick={this.updateCount}
+								>Did Not</button>
+							</div>
 						</div>
 					</div>
 				)}
+				<div className="new-habit">
+					<input
+						name="newHabitName"
+						value={this.state.newHabitName}
+						onChange={this.handleChange}
+					></input>
+					<button
+						onClick={this.createHabit(this.state.newHabitName)}
+					>New Habit</button>
+				</div>
 			</div>
 		)
 	}
