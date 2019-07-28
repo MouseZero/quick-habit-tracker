@@ -1,20 +1,17 @@
 .App {
   text-align: center;
-  margin: 0 3rem 0 3rem;
+  margin: 0 3rem 3rem 3rem;
 }
 
 .App, button, input {
-  font-size: 3rem;
+  font-size: 1.2rem;
 }
 
 .new-habit {
   margin-top: 3rem;
   display: flex;
+  flex-direction: column;
   width: 100%;
-}
-
-.new-habit input {
-  flex: 1;
 }
 
 .habit {
