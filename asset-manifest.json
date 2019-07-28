@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/quick-habit-tracker/static/css/main.8dacb02b.chunk.css",
+    "main.css": "/quick-habit-tracker/static/css/main.77e90521.chunk.css",
     "main.js": "/quick-habit-tracker/static/js/main.3ec40b2e.chunk.js",
     "main.js.map": "/quick-habit-tracker/static/js/main.3ec40b2e.chunk.js.map",
     "runtime~main.js": "/quick-habit-tracker/static/js/runtime~main.bf4b678e.js",
@@ -8,8 +8,8 @@
     "static/js/2.b02dcf28.chunk.js": "/quick-habit-tracker/static/js/2.b02dcf28.chunk.js",
     "static/js/2.b02dcf28.chunk.js.map": "/quick-habit-tracker/static/js/2.b02dcf28.chunk.js.map",
     "index.html": "/quick-habit-tracker/index.html",
-    "precache-manifest.2bf22bf77b910c77579d7f47277cf03a.js": "/quick-habit-tracker/precache-manifest.2bf22bf77b910c77579d7f47277cf03a.js",
+    "precache-manifest.e35b5178953b6a1e6e2f7d09b5d3acc6.js": "/quick-habit-tracker/precache-manifest.e35b5178953b6a1e6e2f7d09b5d3acc6.js",
     "service-worker.js": "/quick-habit-tracker/service-worker.js",
-    "static/css/main.8dacb02b.chunk.css.map": "/quick-habit-tracker/static/css/main.8dacb02b.chunk.css.map"
+    "static/css/main.77e90521.chunk.css.map": "/quick-habit-tracker/static/css/main.77e90521.chunk.css.map"
   }
 }
